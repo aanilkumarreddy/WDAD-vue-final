@@ -1,10 +1,10 @@
 <template>
-  <div class="hello"></div>
+  <router-view />
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Home",
   props: {
     msg: String,
   },

@@ -1,10 +1,24 @@
 <template>
-  <div class="hello"></div>
+  <div class="container">
+    <div class="inner-container">
+      <Header msg="Welcome to Your Vue.js App" />
+      <Navbar />
+      <main>
+        <router-view />
+      </main>
+    </div>
+  </div>
 </template>
 
 <script>
+import Header from "./Header.vue";
+import Navbar from "./Navbar.vue";
 export default {
-  name: "HelloWorld",
+  name: "Portfolio",
+  components: {
+    Header,
+    Navbar,
+  },
   props: {
     msg: String,
   },
