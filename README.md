@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # wdad-vue-final
 
 ## Project setup
@@ -27,3 +28,6 @@ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# WDAD-vue-final
+>>>>>>> d5809d6d60092899b60ff27b12b7ebc092216e71
