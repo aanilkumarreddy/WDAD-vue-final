@@ -1,10 +1,22 @@
 <template>
-  <router-view />
+  <LibraryHeader />
+
+  <div class="row content-wrap mt-20">
+    <router-view />
+  </div>
 </template>
 
 <script>
+import LibraryHeader from "./LibraryHeader.vue";
+// import Books from "./Books.vue";
+// import axios from "axios";
+
 export default {
   name: "Home",
+  components: {
+    LibraryHeader,
+    // Books,
+  },
   props: {
     msg: String,
   },

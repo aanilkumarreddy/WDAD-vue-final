@@ -1,19 +1,17 @@
 <template>
   <header>
     <div class="header-section row">
-      <div class="nav-menu hamburger-menu">
-        <button class="ham-btn" @click="toggle">
-          <span class="material-icons"> menu </span>
-        </button>
+      <div class="nav-menu hamburger-menu"></div>
+      <div class="vertical-center header-title">
+        <span>ANIL'S LIBRARY</span>
       </div>
-      <div class="vertical-center header-title"><span>ANIL</span></div>
     </div>
   </header>
 </template>
 
 <script>
 export default {
-  name: "Header",
+  name: "LibraryHeader",
   props: {
     msg: String,
   },
@@ -38,6 +36,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: white !important;
 }
 </style>
